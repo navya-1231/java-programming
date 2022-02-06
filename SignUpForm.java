@@ -58,7 +58,7 @@ public class SignUpForm extends Frame implements ActionListener{
 	}
 	public void actionPerformed(ActionEvent e) {
 		System.out.println("Username    : "+t1.getText());
-		System.out.println("Gender      : "+t2.getText());
+		System.out.println("DOB         : "+t2.getText());
         System.out.println("E-mail      : "+t3.getText());
         System.out.println("Password    : "+t4.getText());
 	}
